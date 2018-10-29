@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang=en>
+  <head>
+    <meta charset=utf-8>
+    <title>Help me find my shoes</title>
+  </head>
+  <body>
+    <h1>Help me find my shoes...</h1>
+    <div>
+      <div>
+        <input placeholder="Find them"></input>
+      </div>
+      <button>Search</button>
+    </div>
+    <button>GO!</button>
+  </body>
+</html>
