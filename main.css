@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  color: BurlyWood;
+}
+
+h1 {
+  font-family: "courier new" serif;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+}
+
+.inputSection {
+  margin: 50px 0px 80px 0px;
+  width: 400px;
+}
+
+.inputs {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top:  10px;
+}
+
+.addOption {
+  margin-top: 10px;
+}
+
+button {
+  background-color: lightgrey;
+}
+
+.picture {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border-radius: 8px;
+  }
+
+.fancyStyled {
+  background-color: Lightgreen;
+  font-size: 12px;
+  padding: 16px 16px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+  }
