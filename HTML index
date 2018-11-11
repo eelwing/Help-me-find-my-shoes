@@ -6,15 +6,30 @@
     <link href="./main.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <h1>Help me find my shoes...</h1>
+    <h1 class="bigTitle">Help me find my shoes...</h1>
     <div class="inputSection ">
       <div class="inputs">
         <input placeholder="Find them"></input>
       </div>
-      <button class="addOption">Search</button>
+      <button class="addOption">Add</button>
     </div>
+    <div class="resultSection"></div>
     <button class="fancyStyled">GO!</button>
     <img class="picture" src="file:///Users/esterelwing/Desktop/IMG_7830.JPG" height="500" width="500">
     </picture>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"> </script>
+    <script>
+    $(function() {
+      $('.resultSection').hide()
+
+      var add_option = function() {
+        $('.inputs').append('<input></input>')
+      }
+
+      $('.addOption').click(add_option)
+
+    })
+    </script>
   </body>
 </html>
