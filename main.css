@@ -43,10 +43,21 @@ button {
   border-radius: 8px;
   }
 
-.fancyStyled {
-  background-color: Lightgreen;
-  font-size: 12px;
-  padding: 16px 16px;
-  border-radius: 12px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
-  }
+  .fancyStyled {
+    background-color: Lightgreen;
+    font-size: 12px;
+    padding: 16px 16px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+    }
+
+.resultSection {
+  height: : 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border-radius: 8px;
+}
